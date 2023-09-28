@@ -9,8 +9,6 @@ Welcome to the Hexapod Robot repository! In this project, I have designed, built
 - [Software](#software)
 - [Calibration](#calibration)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
