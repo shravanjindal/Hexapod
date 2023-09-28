@@ -101,7 +101,6 @@ void move_femur_leg(int leg_number, double y, double z){
     legs[leg_number].servo2.write(legs[leg_number].phi - phi(y,z));
   }
   else{
-    Serial.println("hello");
     legs[leg_number].servo2.write(legs[leg_number].phi + phi(y,z));
   }
 }
@@ -116,15 +115,15 @@ void loop() {
     move_femur_leg(i,7,7);
     delay(50);
     move_lower_leg(i,7,7);
+    delay(1000);
   }
-  delay(10000);
   // sit
   for(int i=0; i<6; i++){
     move_femur_leg(i,7,4);
     delay(50);
     move_lower_leg(i,7,4);
+    delay(1000)
   }
-  delay(10000);
 }
 
 
