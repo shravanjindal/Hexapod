@@ -35,13 +35,9 @@ Servo calibration is a crucial step in ensuring precise control of the hexapod r
 ## Usage
 
 To use this repository and the hexapod robot:
-1. Clone the repository to your local machine using the following command:
-   ```bash
-   git clone https://github.com/shravanjindal/Hexapod.git
-   ```
-2. Refer to the documentation and code files for details on building and assembling the hexapod robot.
-3. Follow the calibration instructions to ensure accurate leg movement.
-4. Use the provided code to control and program the hexapod for various tasks and movements. The code is written for the ESP32 microcontroller.
+1. Refer to the documentation and code files for details on building and assembling the hexapod robot.
+2. Follow the calibration instructions to ensure accurate leg movement.
+3. Use the provided code to control and program the hexapod for various tasks and movements. The code is written for the ESP32 microcontroller.
 
 
 Thank you for visiting this repository and exploring the hexapod robot project! If you have any questions or feedback, please don't hesitate to reach out.
